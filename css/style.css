@@ -1,0 +1,91 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+.sinMargenSuperior{
+	margin: 0;
+}
+
+.colorCafeClaro{
+	background: #F9F5DE;
+	border-radius: 5px;
+}
+
+.imagenRedonda{
+	border-radius: 150px;
+}
+
+.letraClara{
+	color: #837C6A;
+}
+
+.conMargenSuperior{
+	margin: 50px 15px 15px 0px;
+}
+
+.bordeIzquierdo{
+	border-left: 3px solid #837C6A;
+	padding: 5px;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #C0A498;
+}
+
+h1{
+	font-size: 50px;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container{
+	width: 920px;
+	margin: 0 auto 0 auto;
+}
+
+#header{
+	margin: 0 auto 0 auto;
+	padding: 50px 0 50px 0;
+}
+
+#main{
+	padding: 30px;
+	width: 610px;
+	float: left;
+	margin-right: 20px;
+}
+
+#sidebar{	
+	float: left;
+	width: 280px;
+	padding: 20px
+}
+
+.letraCursiva{
+	font-style: italic;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
